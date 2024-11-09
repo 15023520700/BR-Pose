@@ -9,12 +9,6 @@
    ```
 3. Install [COCOAPI](https://github.com/cocodataset/cocoapi) if you want to test in COCO:
    Note that instructions like # COCOAPI=/path/to/install/cocoapi indicate that you should pick a path where you'd like to have the software cloned and then set an environment variable (COCOAPI in this case) accordingly.
-4. Init output(training model output directory) and log(tensorboard log directory) directory:
-
-   ```
-   mkdir output 
-   mkdir log
-   ```
 
    Your directory tree should look like this:
 
