@@ -44,7 +44,7 @@ ${POSE_ROOT}
             |-- 000003072.jpg
 ```
 
-**For COCO data**, please download from [COCO download](http://cocodataset.org/#download), 2017 Train/Val is needed for COCO keypoints training and validation. We also provide person detection result of COCO val2017 and test-dev2017 to reproduce our multi-person pose estimation results. Please download from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blWzzDXoz5BeFl8sWM-) or [GoogleDrive](https://drive.google.com/drive/folders/1fRUDNUDxe9fjqcRZ2bnF_TKMlO0nB_dk?usp=sharing).
+**For COCO data**, please download from [COCO download](http://cocodataset.org/#download), 2017 Train/Val is needed for COCO keypoints training and validation. We also provide person detection result of COCO test-dev2017 to reproduce our multi-person pose estimation results. Please download from  [GoogleDrive](https://drive.google.com/file/d/16nQ2_trXiLAkh23x9F6oAU9n8BIF30l5/view?usp=drive_link).
 Download and extract them under {POSE_ROOT}/data, and make them look like this:
 ```
 ${POSE_ROOT}
