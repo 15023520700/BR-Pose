@@ -15,16 +15,17 @@ mkdir output
 mkdir log
 Your directory tree should look like this:
 
-${POSE_ROOT}
-├── experiments
-├── lib
-├── models
-├── tools 
-├── README.md
-└── requirements.txt
-Data preparation
-For MPII data, please download from MPII Human Pose Dataset. The original annotation files are in matlab format. We have converted them into json format, you also need to download them from OneDrive or GoogleDrive. Extract them under {POSE_ROOT}/data, and make them look like this:
-
+1. ${POSE_ROOT}
+```
+    ├── experiments
+    ├── lib
+    ├── models
+    ├── tools 
+    ├── README.md
+    └── requirements.txt
+    Data preparation
+    For MPII data, please download from MPII Human Pose Dataset. The original annotation files are in matlab format. We have converted them into json format, you also need to download them from OneDrive or GoogleDrive. Extract them under {POSE_ROOT}/data, and make them look like this:
+```
 ${POSE_ROOT}
 |-- data
 `-- |-- mpii
