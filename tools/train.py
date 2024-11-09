@@ -22,8 +22,7 @@ import torch.utils.data.distributed
 import torchvision.transforms as transforms
 from tensorboardX import SummaryWriter
 import sys
-sys.path.append("D:\理工姿态识别\VIT\deep-high-resolution-net.pytorch-master\lib")
-# sys.path.append("D:\理工姿态识别\VIT\deep-high-resolution-net.pytorch-master\lib")
+
 import _init_paths
 from config import cfg
 from config import update_config
@@ -45,7 +44,7 @@ import models
 def parse_args():
     parser = argparse.ArgumentParser(description='Train keypoints network')
     # general
-    parser.add_argument('--cfg',default="D:\理工姿态识别\VIT\deep-high-resolution-net.pytorch-master\experiments\coco\hrnet\w32_256x192_adam_lr1e-3_ASFF_SE_BIBlock4.yaml",
+    parser.add_argument('--cfg',default="experiments\coco\hrnet\w32_256x192_adam_lr1e-3_BR_Pose.yaml",
                         help='experiment configure file name',
                         type=str)
 
