@@ -1,4 +1,4 @@
-# BRPose: Human Pose Estimation with Bi-Level Routing Attention Mechanism
+# BRPose: Enhancing Human Pose Estimation through Bi-Level Routing Attention and Multi-Level Weight Fusion
 
 ## Quick start
 ### Installation
